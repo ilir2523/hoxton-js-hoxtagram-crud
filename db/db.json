@@ -1,0 +1,66 @@
+{
+  "images": [
+    {
+      "id": 1,
+      "title": "Coder dog",
+      "likes": 20,
+      "image": "./assets/coder-dog.png",
+      "like": 13
+    },
+    {
+      "id": 2,
+      "title": "Coder cats",
+      "likes": 13,
+      "image": "./assets/coder-cat.jpeg",
+      "like": 7
+    },
+    {
+      "id": 3,
+      "title": "Nice Flower",
+      "likes": 19,
+      "image": "https://images.unsplash.com/photo-1566208541068-ffdb5471e9bf?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8Y3V0ZSUyMGZsb3dlcnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
+    }
+  ],
+  "comments": [
+    {
+      "id": 2,
+      "content": "He has the paws for this!",
+      "imageId": 2
+    },
+    {
+      "imageId": 1,
+      "content": "Funny dog!!",
+      "id": 4
+    },
+    {
+      "imageId": 1,
+      "content": "Hes a good boy!!",
+      "id": 5
+    },
+    {
+      "imageId": 2,
+      "content": "LOL",
+      "id": 7
+    },
+    {
+      "imageId": 3,
+      "content": "Nice",
+      "id": 8
+    },
+    {
+      "imageId": 1,
+      "content": "What a cute dog!",
+      "id": 9
+    },
+    {
+      "imageId": 1,
+      "content": "ahaaa",
+      "id": 10
+    },
+    {
+      "imageId": 3,
+      "content": "soo nice",
+      "id": 11
+    }
+  ]
+}
