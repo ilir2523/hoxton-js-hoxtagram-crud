@@ -3,14 +3,14 @@
     {
       "id": 1,
       "title": "Coder dog",
-      "likes": 20,
+      "likes": 28,
       "image": "./assets/coder-dog.png",
       "like": 13
     },
     {
       "id": 2,
       "title": "Coder cats",
-      "likes": 13,
+      "likes": 14,
       "image": "./assets/coder-cat.jpeg",
       "like": 7
     },

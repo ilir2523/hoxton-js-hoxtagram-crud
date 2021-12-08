@@ -46,9 +46,11 @@ img {
   font-size: 0.9rem;
   font-weight: 600;
   color: #000000dd;
+
+  display: grid;
+  grid-template-columns: 1fr auto;
 }
 .delete-button-card {
-  margin-left: 55%;
   background-color: #ffffff;
   color: #6a737c;
   border: none;
@@ -102,6 +104,10 @@ img {
 .comments li {
   margin: 2px 0;
   letter-spacing: 0.2px;
+
+  display: grid;
+  grid-template-columns: 1fr auto;
+  
 }
 
 .comment-form {

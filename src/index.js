@@ -103,7 +103,8 @@ function renderImages() {
         const likeBtnEl = document.createElement('button')
         likeBtnEl.setAttribute('class', 'like-button')
         likeBtnEl.textContent = `♥`
-        likeBtnEl.addEventListener('click', function() {
+        likeBtnEl.addEventListener('click', function(e) {
+            e.preventDefault()
             addLike(image)
             image.likes += 1
         })
