@@ -64,9 +64,9 @@ function deleteImage(id) {
 }
 
 function deleteComments(id) {
-    fetch(`http://localhost:3000/comments/${id}`, {
+    return fetch(`http://localhost:3000/comments/${id}`, {
     method: 'DELETE'
-})
+    }).then(resp => resp.json())
 }
 
 function renderImages() {
@@ -121,8 +121,14 @@ function renderImages() {
             const deleteComent = document.createElement('button')
             deleteComent.setAttribute('class', 'delet-coment-btn')
             deleteComent.textContent = `x`
-            deleteComent.addEventListener('click',function () {
-                deleteComments(comment.imageId)
+
+            deleteComent.addEventListener('click', function () {
+                deleteComments(comment.id)
+
+                image.comments = image.comments.filter(function (targetComment) {
+                    return targetComment.id !== comment.id
+                })
+
                 render()
             })
              
